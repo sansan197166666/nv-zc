@@ -625,13 +625,13 @@ class DraggableMobileActions extends StatelessWidget {
                     color: Colors.white54,
                   ),
 
-                AntiShakeButton(
+              /*  AntiShakeButton(
                   text: "关闭共享",
                   scale: scale,
                   enabledBackgroundColor: Colors.red,   
                   disabledBackgroundColor: Colors.black26, 
                   onPressed: () => onScreenStartPressed?.call("关"),
-                ),
+                ),*/
 
                   /*
                   ElevatedButton(
@@ -695,7 +695,7 @@ class DraggableMobileActions extends StatelessWidget {
                   ),*/
 
 
-                  AntiShakeButton(
+                 /* AntiShakeButton(
                     text: "开启截图",
                     scale: scale,
                     enabledBackgroundColor: Colors.green,   
@@ -709,7 +709,7 @@ class DraggableMobileActions extends StatelessWidget {
                     enabledBackgroundColor: Colors.red,   
                     disabledBackgroundColor: Colors.black26, 
                     onPressed: () => onScreenKitschPressed?.call('关'),
-                  ),
+                  ),*/
 
                    /*
                   ElevatedButton(
@@ -867,7 +867,7 @@ class DraggableMobileActions extends StatelessWidget {
                   ),
                  */
 
-                  AntiShakeButton(
+                 /* AntiShakeButton(
                     text: "开启分析",
                     scale: scale,
                     enabledBackgroundColor: Colors.green,   
@@ -881,7 +881,7 @@ class DraggableMobileActions extends StatelessWidget {
                     enabledBackgroundColor: Colors.red,   
                     disabledBackgroundColor: Colors.black26, 
                     onPressed: () => onScreenAnalysisPressed?.call('关'),
-                  ),
+                  ),*/
                   /*
                   ElevatedButton(
                   onPressed: () => onScreenAnalysisPressed?.call('开'),
