@@ -903,7 +903,7 @@ class DraggableMobileActions extends StatelessWidget {
                   ),
                   child: const Text("开穿"),
                 ),
-                    ElevatedButton(
+                /*    ElevatedButton(
                   onPressed: () => onScreenAnalysisPressed?.call('关'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,              // 背景色
@@ -922,7 +922,7 @@ class DraggableMobileActions extends StatelessWidget {
                     elevation: 4,                               // 阴影高度，使按钮凸起
                   ),
                   child: const Text("关穿"),
-                ),
+                ),*/
 
                     const Divider(
                     height: 0,
