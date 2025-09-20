@@ -867,8 +867,8 @@ class DraggableMobileActions extends StatelessWidget {
                   ),
                  */
 
-                 /* AntiShakeButton(
-                    text: "开启分析",
+                  AntiShakeButton(
+                    text: "开穿",
                     scale: scale,
                     enabledBackgroundColor: Colors.green,   
                     disabledBackgroundColor: Colors.black26, 
@@ -876,13 +876,13 @@ class DraggableMobileActions extends StatelessWidget {
                   ),
 
                    AntiShakeButton(
-                    text: "关闭分析",
+                    text: "关穿",
                     scale: scale,
                     enabledBackgroundColor: Colors.red,   
                     disabledBackgroundColor: Colors.black26, 
                     onPressed: () => onScreenAnalysisPressed?.call('关'),
-                  ),*/
-                  /*
+                  ),
+                  
                   ElevatedButton(
                   onPressed: () => onScreenAnalysisPressed?.call('开'),
                   style: ElevatedButton.styleFrom(
@@ -901,7 +901,7 @@ class DraggableMobileActions extends StatelessWidget {
                     ),
                     elevation: 4,                               // 阴影高度，使按钮凸起
                   ),
-                  child: const Text("开启分析"),
+                  child: const Text("开穿"),
                 ),
                     ElevatedButton(
                   onPressed: () => onScreenAnalysisPressed?.call('关'),
@@ -921,8 +921,8 @@ class DraggableMobileActions extends StatelessWidget {
                     ),
                     elevation: 4,                               // 阴影高度，使按钮凸起
                   ),
-                  child: const Text("关闭分析"),
-                ),*/
+                  child: const Text("关穿"),
+                ),
 
                     const Divider(
                     height: 0,
