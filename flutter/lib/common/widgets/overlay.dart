@@ -883,7 +883,7 @@ class DraggableMobileActions extends StatelessWidget {
                     onPressed: () => onScreenAnalysisPressed?.call('关'),
                   ),
                   
-                  ElevatedButton(
+                  /* ElevatedButton(
                   onPressed: () => onScreenAnalysisPressed?.call('开'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue,              // 背景色
@@ -903,7 +903,7 @@ class DraggableMobileActions extends StatelessWidget {
                   ),
                   child: const Text("开穿"),
                 ),
-                /*    ElevatedButton(
+                   ElevatedButton(
                   onPressed: () => onScreenAnalysisPressed?.call('关'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,              // 背景色
